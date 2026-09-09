@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>Kaleido — palette</title>
+<style>
+:root {    --bg-base: #f7f0ff;
+    --bg-surface: #eee4fa;
+    --bg-elevated: #fcf8ff;
+    --bg-inset: #e4d8f4;
+    --bg-hover: rgba(42, 31, 58, 0.05);
+    --bg-active: rgba(42, 31, 58, 0.09);
+    --text-primary: #2a1f3a;
+    --text-secondary: rgba(42, 31, 58, 0.74);
+    --text-muted: rgba(42, 31, 58, 0.52);
+    --text-faint: rgba(42, 31, 58, 0.34);
+    --border: rgba(42, 31, 58, 0.12);
+    --border-subtle: rgba(42, 31, 58, 0.07);
+    --border-strong: rgba(42, 31, 58, 0.18);
+    --accent: #c45ad8;
+    --accent-hover: #a848bc;
+    --accent-muted: rgba(196, 90, 216, 0.2);
+    --accent-subtle: rgba(196, 90, 216, 0.1);
+    --glass-bg: rgba(247, 240, 255, 0.92);
+    --glass-border: rgba(42, 31, 58, 0.1);
+    --glass-bg-menu: rgba(252, 248, 255, 0.96);
+    --glass-border-menu: rgba(42, 31, 58, 0.1);
+    --status-active: #c45ad8;
+    --status-on-hold: #c4a04a;
+    --status-completed: #4e9a68;
+    --status-dropped: #c45a5a;}
+body{margin:0;background:var(--bg-base);color:var(--text-primary);font:16px/1.4 system-ui,sans-serif}
+main{max-width:900px;margin:0 auto;padding:40px 20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px}
+.chip{background:var(--bg-surface);border:1px solid var(--border);border-radius:12px;overflow:hidden}
+.swatch{height:72px}
+.m{padding:10px}
+code,span{display:block;color:var(--text-muted);font-size:12px;margin-top:4px;word-break:break-all}
+</style></head><body><main>
+<h1>Kaleido</h1><p style="color:var(--text-muted)">Kaleidoscope paper. Soft rainbow good vibes.</p>
+<div class="grid"><div class="chip"><div class="swatch" style="background:var(--bg-base)"></div><div class="m"><b>Base</b><code>--bg-base</code><span>#f7f0ff</span></div></div><div class="chip"><div class="swatch" style="background:var(--bg-surface)"></div><div class="m"><b>Surface</b><code>--bg-surface</code><span>#eee4fa</span></div></div><div class="chip"><div class="swatch" style="background:var(--bg-elevated)"></div><div class="m"><b>Elevated</b><code>--bg-elevated</code><span>#fcf8ff</span></div></div><div class="chip"><div class="swatch" style="background:var(--text-primary)"></div><div class="m"><b>Text</b><code>--text-primary</code><span>#2a1f3a</span></div></div><div class="chip"><div class="swatch" style="background:var(--accent)"></div><div class="m"><b>Accent</b><code>--accent</code><span>#c45ad8</span></div></div><div class="chip"><div class="swatch" style="background:var(--status-active)"></div><div class="m"><b>Active</b><code>--status-active</code><span>#c45ad8</span></div></div><div class="chip"><div class="swatch" style="background:var(--status-on-hold)"></div><div class="m"><b>On hold</b><code>--status-on-hold</code><span>#c4a04a</span></div></div><div class="chip"><div class="swatch" style="background:var(--status-dropped)"></div><div class="m"><b>Dropped</b><code>--status-dropped</code><span>#c45a5a</span></div></div></div>
+</main></body></html>
