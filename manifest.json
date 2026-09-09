@@ -1,0 +1,7 @@
+{
+  "id": "theme-kaleido",
+  "name": "Kaleido",
+  "version": "0.1.0",
+  "description": "Kaleidoscope paper. Soft rainbow good vibes.",
+  "main": "dist/index.js"
+}
